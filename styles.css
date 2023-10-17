@@ -69,6 +69,13 @@ p{
     margin: 0 auto;
 }
 
+.chart{
+    max-width: 700px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
 iframe{
     margin: 0 auto;
     display: flex;
