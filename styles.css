@@ -48,12 +48,12 @@ h3{
 h4{
     font-size: 20px;
     font-weight: normal;
-    margin: 5px 20px;
+    margin: 20px;
 }
 
 p{
     font-size: 12px;
-    margin: 5px;
+    margin: 5px 10px;
     display: inline-block, flex;
     text-align: center;
 }
@@ -70,7 +70,7 @@ p{
 }
 
 .chart{
-    max-width: 700px;
+    max-width: 600px;
     width: 100%;
     display: block;
     margin: 0 auto;
