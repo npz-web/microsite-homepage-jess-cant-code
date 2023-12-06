@@ -9,6 +9,22 @@ body{
     color: white;
 }
 
+.bluebg{
+    background-image: url(images/bluebackground.svg);
+}
+
+.pinkbg{
+    background-image: url(images/pinkbackground.svg);
+}
+
+.greenbg{
+    background-image: url(images/greenbackground.svg);
+}
+
+.orangebg{
+    background-image: url(images/orangebackground.svg);
+}
+
 header{
     background-color: #CE43FF;
     color: white;
@@ -17,6 +33,22 @@ header{
     height: 90px;
     width: 100%;
     align-items: center;
+}
+
+.blue{
+    background-color: #001AFF;
+}
+
+.pink{
+    background-color: #FF00A8;
+}
+
+.green{
+    background-color: #70FF00;
+}
+
+.orange{
+    background-color: #FFB800;
 }
 
 a{
@@ -81,4 +113,44 @@ iframe{
     display: flex;
     justify-content: center;
     width: 95%;
+}
+
+.squareb{
+    background-color: #001AFF;
+    padding: 5px;
+    width: 75%;
+    margin: 10px auto;
+    justify-content: center;
+    border: 5px;
+    border-radius: 25px;
+}
+
+.squarep{
+    background-color: #FF00A8;
+    padding: 5px;
+    width: 75%;
+    margin: 10px auto;
+    justify-content: center;
+    border: 5px;
+    border-radius: 25px;
+}
+
+.squareg{
+    background-color: #70FF00;
+    padding: 5px;
+    width: 75%;
+    margin: 10px auto;
+    justify-content: center;
+    border: 5px;
+    border-radius: 25px;
+}
+
+.squareo{
+    background-color: #FFB800;
+    padding: 5px;
+    width: 75%;
+    margin: 10px auto;
+    justify-content: center;
+    border: 5px;
+    border-radius: 25px;
 }
