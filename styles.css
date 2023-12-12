@@ -180,4 +180,18 @@ iframe{
 .border{
     border: 30px;
     border-radius: 25px;
+    padding: 10px;
+}
+
+.review1{
+    font-size: 40px;
+    margin: 0px 20px;
+}
+
+.review2{
+    margin: 10px 20px;
+}
+
+.padding{
+    padding: 10px 0px;
 }
