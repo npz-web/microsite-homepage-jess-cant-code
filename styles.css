@@ -57,7 +57,7 @@ header{
 
 /*any animations*/
 
-.link:hover {
+.link:hover{
     font-size: 30px;
 }
 
@@ -121,7 +121,14 @@ iframe{
     margin: 0 auto;
     display: flex;
     justify-content: center;
+}
+
+.spotify{
     width: 95%;
+}
+
+.players{
+    width: 60%;
 }
 
 /*classes*/
