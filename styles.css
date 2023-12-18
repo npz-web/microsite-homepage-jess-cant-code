@@ -57,8 +57,8 @@ header{
 
 /*any animations*/
 
-.hover{
-    transition: transform .2s;
+.link:hover {
+    font-size: 30px;
 }
 
 /*html formatting*/
@@ -243,4 +243,9 @@ iframe{
 
 .padding{
     padding: 10px 0px;
+}
+
+.link{
+    font-size: 25px;
+    transition: font-size 400ms ease-in;
 }
