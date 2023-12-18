@@ -55,6 +55,10 @@ header{
     background-color: #CE43FF;
 }
 
+.hover{
+    transition: transform .2s;
+}
+
 a{
     font-size: 25px;
     color: white;
@@ -84,14 +88,47 @@ h3{
 h4{
     font-size: 20px;
     font-weight: normal;
-    margin: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
 }
 
 p{
     font-size: 12px;
     margin: 5px 10px;
-    display: inline-block, flex;
     text-align: center;
+}
+
+img{
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption{
+    text-align: center;
+    margin: 0 auto;
+    padding: 8px;
+}
+
+.largeimg{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 5px;
+
+}
+
+.gibberish{
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.visual{
+    margin: 0 auto;
+    margin-right: 20px;
 }
 
 .main{
@@ -103,6 +140,7 @@ p{
     width: 100%;
     max-width: 841px;
     margin: 0 auto;
+    border-radius: 25px;
 }
 
 .chart{
