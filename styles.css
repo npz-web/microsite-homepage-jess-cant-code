@@ -1,4 +1,4 @@
-/* your styles will go here!! */
+/*background*/
 
 body{
     margin: 0;
@@ -55,9 +55,13 @@ header{
     background-color: #CE43FF;
 }
 
+/*any animations*/
+
 .hover{
     transition: transform .2s;
 }
+
+/*html formatting*/
 
 a{
     font-size: 25px;
@@ -112,6 +116,16 @@ figcaption{
     padding: 8px;
 }
 
+
+iframe{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    width: 95%;
+}
+
+/*classes*/
+
 .largeimg{
     max-width: 500px;
     margin: 0 auto;
@@ -151,12 +165,7 @@ figcaption{
     padding: 10px;
 }
 
-iframe{
-    margin: 0 auto;
-    display: flex;
-    justify-content: center;
-    width: 95%;
-}
+/*album reviews*/
 
 .squareb{
     background-color: #001AFF;
@@ -209,6 +218,8 @@ iframe{
     display: flex;
     align-items: center;
 }
+
+/*specific stuff*/
 
 .album{
     max-width: 200px;
