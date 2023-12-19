@@ -138,6 +138,12 @@ iframe{
 
 .players{
     width: 60%;
+    height: auto;
+}
+
+.youtube{
+    width: 50%;
+    height: 315px;
 }
 
 /*classes*/
