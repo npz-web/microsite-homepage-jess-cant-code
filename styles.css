@@ -1,5 +1,9 @@
 /*background*/
 
+html{
+    font-size: 16px;
+}
+
 body{
     margin: 0;
     font-family: VT323;
@@ -31,9 +35,14 @@ header{
     color: white;
     display: flex;
     justify-content: space-between;
-    height: 90px;
+    height: auto;
     width: 100%;
     align-items: center;
+}
+
+.menu{
+    flex-wrap: wrap;
+    margin: 10px;
 }
 
 .blue{
@@ -72,7 +81,7 @@ a{
 
 h1{
     text-align: center;
-    font-size: 128px;
+    font-size: 8rem;
     font-weight: normal;
     margin: 5px;
 }
