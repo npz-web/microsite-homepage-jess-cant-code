@@ -115,7 +115,7 @@ p{
 }
 
 img{
-    max-width: 200px;
+    max-width: 300px;
     display: block;
     margin: 0 auto;
 }
@@ -155,10 +155,10 @@ iframe{
     padding: 5px;
 }
 
-.flex1{
+.flex{
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 70px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -172,6 +172,8 @@ iframe{
 .left{
     display: flex;
     flex-direction: column;
+    width: 100%;
+    max-width: 800px;
 }
 
 .visual{
