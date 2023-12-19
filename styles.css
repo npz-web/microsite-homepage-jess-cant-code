@@ -251,6 +251,7 @@ iframe{
 .album{
     max-width: 200px;
     margin-left: 15px;
+    display: flex;
 }
 
 .border{
