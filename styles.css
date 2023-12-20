@@ -99,7 +99,7 @@ h3{
     font-size: 50px ;
 }
 
-h4{
+p{
     font-size: 20px;
     font-weight: normal;
     margin-left: 20px;
@@ -108,7 +108,7 @@ h4{
     margin-bottom: 5px;
 }
 
-p{
+footer{
     font-size: 12px;
     margin: 5px 10px;
     text-align: center;
