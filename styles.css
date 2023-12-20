@@ -110,9 +110,7 @@ p{
 }
 
 footer{
-    font-size: 12px;
-    margin: 5px 10px;
-    text-align: center;
+    margin: 10px 0px;
 }
 
 img{
@@ -298,4 +296,10 @@ iframe{
 .link{
     font-size: 25px;
     transition: font-size 400ms ease-in;
+}
+
+.sm{
+    font-size: 12px;
+    margin: 5px 10px;
+    text-align: center;
 }
