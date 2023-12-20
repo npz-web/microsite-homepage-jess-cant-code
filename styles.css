@@ -14,6 +14,7 @@ body{
     color: white;
 }
 
+
 .bluebg{
     background-image: url(images/bluebackground.svg);
 }
@@ -278,6 +279,11 @@ iframe{
     border: 30px;
     border-radius: 25px;
     padding: 10px;
+}
+
+.border3{
+    border: 30px;
+    border-radius: 25px;
 }
 
 .review1{
