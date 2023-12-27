@@ -225,11 +225,13 @@ iframe{
     width: 75%;
     max-width: 75%;
     margin: 10px auto;
-    justify-content: flex-start;
     border: 5px;
     border-radius: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .squareg{
@@ -238,11 +240,13 @@ iframe{
     width: 75%;
     max-width: 75%;
     margin: 10px auto;
-    justify-content: flex-start;
     border: 5px;
     border-radius: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .squareo{
@@ -251,11 +255,13 @@ iframe{
     width: 75%;
     max-width: 75%;
     margin: 10px auto;
-    justify-content: flex-start;
     border: 5px;
     border-radius: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .leftsq{
