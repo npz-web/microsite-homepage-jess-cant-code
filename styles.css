@@ -82,7 +82,7 @@ a{
 
 h1{
     text-align: center;
-    font-size: 6rem;
+    font-size: 5rem;
     font-weight: normal;
     margin: 5px;
 }
@@ -210,11 +210,13 @@ iframe{
     width: 75%;
     max-width: 75%;
     margin: 10px auto;
-    justify-content: flex-start;
     border: 5px;
     border-radius: 25px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .squarep{
@@ -256,16 +258,26 @@ iframe{
     align-items: center;
 }
 
-/*specific stuff*/
-
-#opener{
-    font-size: 64px
+.leftsq{
+    display: flex;
+    flex-direction: column;
 }
 
-.album{
-    max-width: 200px;
-    margin-left: 15px;
+.rightsq{
     display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 800px;
+}
+
+/*specific stuff*/
+
+.album{
+    max-width: 250px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px ;
 }
 
 .border1{
@@ -292,7 +304,7 @@ iframe{
 }
 
 .review2{
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .padding{
